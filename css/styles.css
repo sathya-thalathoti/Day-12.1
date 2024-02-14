@@ -1,0 +1,113 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    /* border: 2px solid black; */
+    width: 270px;
+    height: 90vh;
+    margin: 30px auto;
+    border-radius: 2vw;
+    background-color: #09131a;
+    position: relative;
+    overflow-y: auto;
+    scrollbar-width: none;
+    background-image: url(../../../assets/arya.jpg);
+
+}
+
+.header{
+    background-color: #1f2c34;
+    z-index: 2;
+    position: fixed; 
+    width: 270px;
+    height: 50px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+span{
+    display: inline-block;
+}
+
+.icons{
+    height: 24px;
+    width: 24px;
+}
+
+table{
+    top:50px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    font-size: 12px;
+}
+tr{
+    display: block;
+}
+
+td{
+    width: 50%;
+}
+.footer{
+    /* background-color: orange; */
+    z-index: 1;
+    position: fixed; 
+    bottom: 33px;
+    /* left:4px ; */
+    width: 270px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.msg-box{
+    background-color: #1f2c34;
+    z-index: 4;
+    width: 85%;
+    height: 100%;
+    border-radius: 25px;
+
+}
+
+input{
+    background: none;
+    border: none;
+    width: 70px;
+}
+
+.left,.right{
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.left{
+    text-align: left;
+    border-top-left-radius: 0;
+    /* margin-left: 0; */
+    background-color: #1f2c34 ;
+}
+
+.right{
+    text-align: right;
+    border-top-right-radius: 0;
+    background-color: #005d4b ;
+}
+
+#yesterday{
+    text-align: center;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 0; 
+    top: 51px;
+    left: 102px;
+    background-color: #005d4b ;
+    font-size: 10px;
+    border-radius: 5px;
+
+}
